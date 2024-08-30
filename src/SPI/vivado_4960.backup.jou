@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Aug  3 18:00:23 2024
+# Process ID: 4960
+# Current directory: C:/Users/Fayz/OneDrive/Desktop/SV_PRACTICE/sample/SPI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8944 C:\Users\Fayz\OneDrive\Desktop\SV_PRACTICE\sample\SPI\SPI.xpr
+# Log file: C:/Users/Fayz/OneDrive/Desktop/SV_PRACTICE/sample/SPI/vivado.log
+# Journal file: C:/Users/Fayz/OneDrive/Desktop/SV_PRACTICE/sample/SPI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Fayz/OneDrive/Desktop/SV_PRACTICE/sample/SPI/SPI.xpr
+uuupdate_compile_order -fileset sources_launch_simulation
+source spi_masterTB.tcl
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/spi_masterTB/dut1/data_saved_mosi}} 
+current_wave_config {Untitled 1}
+add_wave {{/spi_masterTB/dut1/index}} 
+current_wave_config {Untitled 1}
+add_wave {{/spi_masterTB/dut1/current_state_slave}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/spi_masterTB/dut/current_state}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
